@@ -1,7 +1,7 @@
 commshare
 =========
 
-Grails 2.0 working prototype of a social web application.
+Grails 2.0 working prototype of a social web application. You can see the app in action at http://www.commshare.net
 
 Features
 --------
@@ -31,14 +31,14 @@ Instructions
 
 - Download **commshare** source code from github to your local folder:
 
-	git clone https://github.com/renp/commshare.git
+  git clone https://github.com/renp/commshare.git
 
 - Optionally run unit and integration tests
 
-	grails test-app
+  grails test-app
 	
 - Run and test the app locally
 
-	grails run-app
+  grails run-app
 
 After this command finishes, you can point your browser to http://localhost:8080/commshare
