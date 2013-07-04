@@ -47,7 +47,7 @@ Instructions
 
   git clone https://github.com/renp/commshare.git
 
-- Optionally run unit and integration tests
+- Run unit and integration tests
 
   grails test-app
 	
