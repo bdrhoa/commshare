@@ -1,21 +1,9 @@
 commshare
 =========
 
-Grails 2.0 working prototype of a social web application. You can see the app in action at http://www.commshare.net
+Grails 2.0 prototype of a social web application.
 
-Copyright 2013 Rene Puchinger
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+Developed by René Puchinger in 2013 under public domain license (see the file LICENSE).
 
 Features
 --------
@@ -56,3 +44,5 @@ Instructions
   grails run-app
 
 After this command finishes, you can point your browser to http://localhost:8080/commshare
+
+To run the application in production environment, you will have to change few settings in grails-app/conf/ directory.
