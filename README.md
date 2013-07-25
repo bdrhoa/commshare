@@ -45,4 +45,9 @@ Instructions
 
 After this command finishes, you can point your browser to http://localhost:8080/commshare
 
-To run the application in production environment, you will have to change few settings in grails-app/conf/ directory.
+The application uses SendGrid for sending e-mails to confirm new account creation. Hence on localhost the user registration
+process will not work immediately -- SendGrid has to be configured. The most convenient way to create test accounts in 
+development environment is to add them in BootStrap.groovy manually.
+
+To run the application in production environment, one needs to change few settings in grails-app/conf/ directory. These settings
+are by default obtained as environment variables and include configuration for Database parameters, SendGrid account and ReCaptcha account.
